@@ -44,7 +44,7 @@ AWS.config.update({region: 'us-east-1'});
 
 
     var params1 = {
-    KeyId: "arn:aws:kms:us-east-1:162723788887:key/6875cf81-e404-44eb-a5fd-856169b8e7b9", // The identifier of the CMK to use for encryption. You can use the key ID or Amazon Resource Name (ARN) of the CMK, or the name or ARN of an alias that refers to the CMK.
+    KeyId: "arn:<foo>", // The identifier of the CMK to use for encryption. You can use the key ID or Amazon Resource Name (ARN) of the CMK, or the name or ARN of an alias that refers to the CMK.
     Plaintext: plaintext.Password // The data to encrypt.
 };
 
