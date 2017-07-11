@@ -1,0 +1,25 @@
+{
+  "name": "nodejskmss3api",
+  "version": "1.0.0",
+  "description": "A node.js AWS KMS upload to S3 and web front end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/secsandman/nodejsKmsS3Api.git"
+  },
+  "keywords": [
+    "Node.js",
+    "AWS",
+    "KMS",
+    "API"
+  ],
+  "author": "Ricky L. Sanders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/secsandman/nodejsKmsS3Api/issues"
+  },
+  "homepage": "https://github.com/secsandman/nodejsKmsS3Api#readme"
+}

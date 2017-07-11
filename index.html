@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<html>
+<body>
+
+<h2 >Configuration Items</h2>
+
+<form action="/post" method="post">
+  <div class="imgcontainer">
+    <img src="cloud.png" alt="Cloud" class="cloud">
+  </div>
+
+  <div class="container">
+    <label><b>App ID</b></label><br>
+    <input type="text" placeholder="Enter your App ID" name="AppID" required><br>
+
+    <label><b>Respository Link</b></label><br>
+    <input type="text" placeholder="Github url" name="Repo" required><br>
+
+    <label><b>DB Hostname</b></label><br>
+    <input type="text" placeholder="Enter yor DB hostname" name="DBHN" required><br>
+
+    <label><b>DB UID</b></label><br>
+    <input type="text" placeholder="Enter your DN user name" name="DBUID" required><br>
+
+    <label><b>DB Connection String</b></label><br>
+    <input type="password" placeholder="Enter Password" name="Password" required><br>
+
+
+    <button type="submit">Create</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Need <a href="#">help?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
